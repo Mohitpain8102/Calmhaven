@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+   
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-image: url('image/image1.jpg');
+    background-size: cover;
+   
+}
+
+.ms-n5 {
+    margin-left: -40px;
+}
+.brand{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+image-container{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.image-container img{
+    transition: transform 0.3 ease;
+}
+.image-container:hover img{
+    transition: 0.5 second;
+    transform:translateX(-20px);
+}
+::-webkit-scrollbar{
+    transition: 0.5 seconds;
+}
